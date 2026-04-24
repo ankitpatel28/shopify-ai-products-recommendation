@@ -1,7 +1,7 @@
-const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || "AIzaSyCk7HEi9XbuyIk3hPVI-5Bp-igfAwJzIho";
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const MODEL_NAME = process.env.GOOGLE_MODEL_NAME || "gemini-2.5-flash";
 
-const BASE_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent`;
+const BASE_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent`;
 
 export async function callGemini(prompt: string) {
   try {
@@ -18,7 +18,7 @@ export async function callGemini(prompt: string) {
       },
     };
 
-    const res = await fetch(`${BASE_URL}?key=AIzaSyAb2Qx_nqa4HT7Ki7nbE5UsYjOTQOOmEnM`, {
+    const res = await fetch(`${BASE_URL}?key=${GOOGLE_API_KEY}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
