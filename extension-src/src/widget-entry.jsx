@@ -14,7 +14,7 @@ if (cartSyncWidgetElement) {
 }
 
 // const contactFormWidgetElement = document.getElementById("contact-form-widget");
-// if (cartSyncWidgetElement) {
+// if (contactFormWidgetElement) {
 //   createRoot(contactFormWidgetElement).render(
 //     <AppProvider>
 //       <ContactForm />
