@@ -1,0 +1,11 @@
+{
+  "name": "cart-sync-widget-src",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "build-js": "vite build",
+    "watch-js": "vite build --watch",
+    "build-watch": "concurrently \"npm run watch-js\""
+  }
+}

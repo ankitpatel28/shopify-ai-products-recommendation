@@ -1,0 +1,13 @@
+{
+  "cart": {
+    "lines": [
+      {
+        "id": "gid://shopify/CartLine/1",
+        "merchandise": {
+          "id": "gid://shopify/ProductVariant/1234567890"
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}

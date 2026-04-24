@@ -1,0 +1,71 @@
+{
+  "cart": {
+    "lines": [
+      {
+        "id": "gid://shopify/CartLine/123456",
+        "quantity": 2,
+        "merchandise": {
+          "__typename": "ProductVariant",
+          "id": "gid://shopify/ProductVariant/789012",
+          "product": {
+            "id": "gid://shopify/Product/345678",
+            "title": "Test Product"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/CartLine/123457",
+        "quantity": 1,
+        "merchandise": {
+          "__typename": "ProductVariant",
+          "id": "gid://shopify/ProductVariant/789013",
+          "product": {
+            "id": "gid://shopify/Product/345679",
+            "title": "Another Product"
+          }
+        }
+      }
+    ],
+    "buyerIdentity": {
+      "customer": {
+        "id": "gid://shopify/Customer/111222"
+      },
+      "isAuthenticated": true
+    }
+  },
+  "cartTransform": {
+    "metafield": null
+  },
+  "localization": {
+    "country": {
+      "isoCode": "US"
+    },
+    "language": {
+      "isoCode": "EN"
+    },
+    "market": {
+      "handle": "us",
+      "id": "gid://shopify/Market/1",
+      "regions": []
+    }
+  },
+  "presentmentCurrencyRate": "1.0",
+  "shop": {
+    "metafield": null,
+    "localTime": {
+      "date": "2025-01-01",
+      "dateTimeAfter": false,
+      "dateTimeBefore": false,
+      "dateTimeBetween": false,
+      "timeAfter": false,
+      "timeBefore": false,
+      "timeBetween": false
+    }
+  }
+}
+
+
+
+
+
+
